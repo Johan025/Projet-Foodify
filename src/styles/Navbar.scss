@@ -1,0 +1,91 @@
+.nav {
+  width: 15rem;
+  height: 100vh;
+  position: fixed;
+  z-index: 55;
+  background-color: rgb(34, 34, 34);
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+
+  h1 {
+    font-size: 33px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: #e2bc53;
+    margin-left: 1.7rem;
+    margin-top: 1.5rem;
+
+    .logo {
+      @include picture(43px, 43px, 50%);
+    }
+  }
+
+  ul {
+    position: absolute;
+    top: 8.7rem;
+
+
+
+    li {
+
+      
+      font-size: 20px;
+      color: #e2bc53;
+      margin-top: -1.2rem;
+
+    
+
+      .h1 {
+        font-size: 18px;
+        position: relative;
+        color: #e2bc53;
+        top: -3.1rem;
+        left: 1rem;
+
+        &:hover {
+          background-color: #9c7300;
+          color: #533f06;
+          padding: 0px;
+        }
+      }
+
+      .lig {
+        @include picture(100%, 2px, 15px);
+        background-color: #e2bc53;
+        position: relative;
+        top: -1rem;
+      }
+
+      .lig1 {
+        @include picture(100%, 2px, 15px);
+        background-color: #e2bc53;
+        position: relative;
+        top: -1rem;
+      }
+
+      h3 {
+        font-size: 19.6px;
+        font-style: italic;
+        margin-top: 1rem;
+      }
+
+
+    }
+
+    .user {
+      margin-top: 1rem;
+
+      #h2 {
+        margin-top: 1rem;
+        margin-left: 1.8rem;
+      }
+
+      .i1 {
+        border: 1px solid;
+        padding: 7px;
+        border-radius: 50%;
+      }
+    }
+  }
+
+}
