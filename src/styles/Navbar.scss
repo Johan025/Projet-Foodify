@@ -37,6 +37,15 @@
     top: 4.7rem;
     width: 100%;
 
+    .active{
+      background-color: #9c7300;
+      color: rgb(34, 34, 34);
+
+        h1{
+         color: rgb(34, 34, 34);
+        }
+    }
+
 
     li {
       font-size: 20px;
@@ -50,23 +59,24 @@
 
       &:hover {
         background-color: #9c7300;
-        color: #533f06;
-
-
+        color: rgb(34, 34, 34);
       }
-
-
-
 
       .h1 {
         font-size: 18px;
         position: relative;
-        color: #e2bc53;
         top: -3.1rem;
         left: 1rem;
 
-
+        &:hover {
+          color: rgb(34, 34, 34);
+        }
       }
+
+
+
+
+     
 
 
 
@@ -102,8 +112,9 @@
 
     .user {
       position: relative;
-      left: -0.2rem;
+      left: 0rem;
       top: 1.7rem;
+     height: 2.8rem;
 
       #h2 {
         margin-top: 1rem;

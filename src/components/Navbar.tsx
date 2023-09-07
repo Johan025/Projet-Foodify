@@ -16,7 +16,7 @@ const Navbar = () => {
                        <ul>
                          
 
-                           <li> <FontAwesomeIcon icon={faHouse} className='i'/> <h1 className='h1'>Accueil</h1></li>
+                           <li className='active'> <FontAwesomeIcon icon={faHouse} className='i'/> <h1 className='h1'>Accueil</h1></li>
                            <li> <FontAwesomeIcon icon={faNewspaper} className='i'/> <h1 className='h1'>Nouveautés</h1></li>
                            <li> <FontAwesomeIcon icon={faNewspaper} className='i'/> <h1 className='h1'>Catégories</h1></li>
                            <li> <FontAwesomeIcon icon={faTruck} className='i'/> <h1 className='h1'>Service Livraison</h1></li>

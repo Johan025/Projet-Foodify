@@ -1,27 +1,55 @@
 
-
-
-
 .welcome{
   width: 100%;
   height: 100vh;
   position: relative;
   overflow: hidden;
+  background-color: #d8d2c2;
   left: 0%;
   top: 0rem;
 
+     .desc{
+       position: relative;
+       left: 23%;
+       top: 8rem;
+       width: 35%;
+
+        h1{
+          font-size: 44px;
+         
+         color: rgb(151, 84, 20);
+          font-family: 'Kanit', sans-serif;
+        }
+
+        h2{
+          font-size: 19px;
+          color: rgba(34, 34, 34, 0.877);
+        }
+
+        button{
+          background-color: rgb(151, 84, 20);
+          font-size: 19px;
+          color: #d8d2c2;
+          padding: 7px;
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+     }
+
 
   .bg {
-      position: relative;
+      position: absolute;
       height: 140%;
       width: 2000px;
-      top: 9.7rem;
-      left: 52%;
+      top: 5.7rem;
+      left: 60%;
       transform: translate(0%, -18rem);
       background-image: url('../assets/couv.jpg');
+      backdrop-filter: blur(50px);
       background-size: contain;
       border-radius: 50%;
       object-fit: contain;
+      box-shadow: 0 0 15px #9c7300;
       z-index: 6;
 
         img{
