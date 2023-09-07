@@ -22,13 +22,10 @@ const Navbar = () => {
                            <li> <FontAwesomeIcon icon={faTruck} className='i'/> <h1 className='h1'>Service Livraison</h1></li>
                            <li><FontAwesomeIcon icon={faMessage} className='i'/> <h1 className='h1'>Message</h1></li>
                            <li><FontAwesomeIcon icon={faCartShopping} className='i'/> <h1 className='h1'>Votre achat</h1></li>
-                           <li><div className='lig'></div></li>
                            <li className='user'><FontAwesomeIcon icon={faUser} className='i1'/> <h1 className='h1' id='h2'>Se connecter</h1></li>
-                           <li><div className='lig1'></div>
-                           
-                                <h3>Copyright  2023 par I-dev</h3>
-                           </li>
                        </ul>
+
+                       <div className="lig"></div>
                </header>
         
     );
