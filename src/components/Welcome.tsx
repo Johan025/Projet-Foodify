@@ -10,9 +10,8 @@ const Welcome = () => {
         <div className='welcome'>
        
             <div className="bg">
-                     <img src={couv} alt="" /> 
-                       <img src={w} alt="" />
-
+                     {/* <img src={couv} alt="" /> 
+                       <img src={w} alt="" /> */}
             </div>
         </div>
     );

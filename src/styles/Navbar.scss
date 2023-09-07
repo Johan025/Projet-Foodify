@@ -11,12 +11,12 @@
     @include picture(75%, 2px, 15px);
     background-color: #e2bc53;
     position: absolute;
-    top: 32rem; 
+    top: 32rem;
     left: 2.7rem;
 
-    &:hover{
+    &:hover {
       background-color: #9c720000;
-     }
+    }
   }
 
   h1 {
@@ -39,20 +39,20 @@
 
 
     li {
-     
       font-size: 20px;
+      cursor: pointer;
       color: #e2bc53;
       margin-top: 1.7rem;
-      height:2.4rem;
-      padding:4px 10px 4px;
-      border-top-left-radius:12px ;
-      border-bottom-left-radius:12px ;
+      height: 2.4rem;
+      padding: 4px 10px 4px;
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
 
       &:hover {
         background-color: #9c7300;
         color: #533f06;
-      
-        
+
+
       }
 
 
@@ -65,10 +65,10 @@
         top: -3.1rem;
         left: 1rem;
 
-       
+
       }
 
-     
+
 
       .lig1 {
         @include picture(100%, 2px, 15px);
@@ -76,9 +76,9 @@
         position: relative;
         top: -1rem;
 
-        &:hover{
+        &:hover {
           background-color: #9c720000;
-         }
+        }
       }
 
       h3 {
@@ -87,18 +87,18 @@
         margin-top: 1rem;
         margin-left: -1rem;
         width: 100%;
-        padding:0;
+        padding: 0;
         background-color: #9c720000;
 
-           &:hover{
-            background-color: #9c720000;
-           }
+        &:hover {
+          background-color: #9c720000;
+        }
       }
 
 
     }
 
-  
+
 
     .user {
       position: relative;

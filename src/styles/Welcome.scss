@@ -1,20 +1,36 @@
 
 
-.bg{
-     width: 92%;
-     height: 100vh;
-     overflow: hidden;
-     object-fit: contain;
-     position: relative;
-     left: 8%;
-     top: 0rem;
 
-     
 
-       img{
-        width: 100%;
-     height:100vh ;
-     filter: brightness(56%);
-       }
+.welcome{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  left: 0%;
+  top: 0rem;
+
+
+  .bg {
+      position: relative;
+      height: 140%;
+      width: 2000px;
+      top: 9.7rem;
+      left: 52%;
+      transform: translate(0%, -18rem);
+      background-image: url('../assets/couv.jpg');
+      background-size: contain;
+      border-radius: 50%;
+      object-fit: contain;
+      z-index: 6;
+
+        img{
+          position: relative;
+          top: 17rem;
+          width: 32rem;
+          height: 32rem;
+          left: 2rem;
+        }
+  }
 
 }
